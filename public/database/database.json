@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "12345",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Juan",
+      "password": "1234",
+      "roleId": 2
+    },
+    {
+      "id": "7d69",
+      "name": "dylan",
+      "password": "1233",
+      "roleId": 2
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "JavaScript Workshop",
+      "type": "Workshop",
+      "capacity": 30,
+      "userId": 1
+    },
+    {
+      "id": "9d86",
+      "title": "dsd",
+      "type": "fiests",
+      "capacity": 20,
+      "userId": 1
+    }
+  ],
+  "stays": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "userId": 2
+    }
+  ]
+}

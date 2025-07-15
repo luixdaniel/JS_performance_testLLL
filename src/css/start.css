@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #111827;
+}
+
+p {
+    margin-bottom: 2rem;
+    color: #6b7280;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.buttons button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.register {
+    background: #10b981;
+    color: white;
+}
+
+.register:hover {
+    background: #059669;
+}
+
+.login {
+    background: #3b82f6;
+    color: white;
+}
+
+.login:hover {
+    background: #2563eb;
+}
